@@ -1,8 +1,21 @@
+import { Box } from '@mui/material'
 import React from 'react'
+import Sidebar from '../common/Sidebar'
 
 const MainLayout = () => {
   return (
-    <div>MainLayout</div>
+   <Box display="flex">
+    
+      {/* Sidebar */}
+      <Sidebar/>
+      {/* Sidebar */}
+
+      <Box component="main">
+        
+      </Box>
+
+
+   </Box>
   )
 }
 
